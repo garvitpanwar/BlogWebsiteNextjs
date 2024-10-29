@@ -1,16 +1,13 @@
-.hero {
+/* .hero {
   text-align: center;
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-grey-900),
-    var(--color-grey-800)
-  );
+  background-image: url("../../public/images/bg.jpg");
   padding: var(--size-8) 0;
 }
 
 .image {
   width: 300px;
   height: 300px;
+  object-fit: "contain";
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   overflow: hidden;
@@ -37,4 +34,4 @@
   width: 90%;
   max-width: 40rem;
   margin: auto;
-}
+} */

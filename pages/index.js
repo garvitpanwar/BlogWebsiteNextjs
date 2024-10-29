@@ -8,14 +8,15 @@ import { getFeaturedPosts } from "../lib/posts-util";
 function HomePage(props) {
   return (
     <Fragment>
-      <Head>
+      {/* <Head>
         <title>Garvit Panwar</title>
         <meta
           name="description"
           content="I post about programming and web development."
         />
-      </Head>
+      </Head> */}
       <Hero />
+
       <FeaturedPosts posts={props.posts} />
     </Fragment>
   );
