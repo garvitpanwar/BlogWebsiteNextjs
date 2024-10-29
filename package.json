@@ -1,0 +1,35 @@
+{
+  "name": "next-blog",
+  "productName": "Blog",
+  "version": "1.0.0",
+  "description": "A complete app example with a blog using Next.js, MongoDB, Markdown and React Syntax Highlighter.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/next-projects.git"
+  },
+  "author": "solygambas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solygambas/next-projects/issues"
+  },
+  "homepage": "https://github.com/solygambas/next-projects#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "mongodb": "^3.6.4",
+    "next": "^14.2.15",
+    "postcss": "^8.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3",
+    "sharp": "^0.33.5"
+  },
+  "resolutions": {
+    "postcss": "^8.4.0"
+  }
+}
