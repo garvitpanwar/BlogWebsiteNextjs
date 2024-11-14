@@ -1,4 +1,4 @@
-/* .hero {
+.hero {
   text-align: center;
   background-image: url("../../public/images/bg.jpg");
   padding: var(--size-8) 0;
@@ -34,4 +34,4 @@
   width: 90%;
   max-width: 40rem;
   margin: auto;
-} */
+}
