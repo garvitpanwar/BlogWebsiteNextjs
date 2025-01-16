@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/dialog";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
+  { name: "Home", href: "/", current: true },
   { name: "Blogs", href: "#", current: false },
   { name: "Form", href: "#", current: false },
 ];
