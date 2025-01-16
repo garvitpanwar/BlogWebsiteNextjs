@@ -5,7 +5,6 @@ import React from "react";
 import {
   FacebookIcon,
   FacebookShareButton,
-  MailruShareButton,
   TwitterIcon,
   TwitterShareButton,
   WhatsappIcon,
@@ -35,9 +34,7 @@ export const Card = ({ imageSrc, title, description, category, id }) => {
         <WhatsappShareButton url={`/blog/${id}`}>
           <WhatsappIcon size={32} round={true} />
         </WhatsappShareButton>
-        <MailruShareButton url={`/blog/${id}`}>
-          <MailIcon size={32} round={true} />
-        </MailruShareButton>
+        <MailIcon size={32} />
       </div>
     </div>
   );
